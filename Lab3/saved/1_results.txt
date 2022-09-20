@@ -1,0 +1,31 @@
+=== Evaluation result ===
+
+Scheme: CVParameterSelection
+Options: -P "M 0.1 0.5 5.0" -P "L 0.1 0.5 5.0" -X 5 -S 1 -W weka.classifiers.functions.MultilayerPerceptron -- -L 0.1 -M 0.1 -N 500 -V 0 -S 0 -E 20 -H "4, 5"
+Relation: iris_train_test-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+=== Summary ===
+
+Correctly Classified Instances         116               96.6667 %
+Incorrectly Classified Instances         4                3.3333 %
+Kappa statistic                          0.95  
+Mean absolute error                      0.0534
+Root mean squared error                  0.144 
+Relative absolute error                 12.0071 %
+Root relative squared error             30.5366 %
+Total Number of Instances              120     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1,000    0,000    1,000      1,000    1,000      1,000    1,000     1,000     setosa
+                 0,925    0,013    0,974      0,925    0,949      0,925    0,974     0,978     versicolor
+                 0,975    0,038    0,929      0,975    0,951      0,927    0,987     0,952     virginica
+Weighted Avg.    0,967    0,017    0,967      0,967    0,967      0,950    0,987     0,977     
+
+=== Confusion Matrix ===
+
+  a  b  c   <-- classified as
+ 40  0  0 |  a = setosa
+  0 37  3 |  b = versicolor
+  0  1 39 |  c = virginica

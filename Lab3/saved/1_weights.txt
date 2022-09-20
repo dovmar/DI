@@ -1,0 +1,107 @@
+=== Classifier model ===
+
+Scheme:   CVParameterSelection
+Relation: iris_train_test-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+Cross-validated Parameter selection.
+Classifier: weka.classifiers.functions.MultilayerPerceptron
+Cross-validation Parameter: '-M' ranged from 0.1 to 0.5 with 5.0 steps
+Cross-validation Parameter: '-L' ranged from 0.1 to 0.5 with 5.0 steps
+Classifier Options: -M 0.1 -L 0.1 -N 500 -V 0 -S 0 -E 20 -H "4, 5"
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    3.9165719492760407
+    Node 7    -2.541443209938954
+    Node 8    -2.4607031550788796
+    Node 9    -4.229802362238111
+    Node 10    -2.9153328254022943
+    Node 11    -4.352063609329793
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -3.768133362681633
+    Node 7    -4.154753240450082
+    Node 8    -3.6748916015139415
+    Node 9    3.9452095739287354
+    Node 10    -3.928901994261605
+    Node 11    4.760240542528031
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -6.9082130028729
+    Node 7    3.652349873239583
+    Node 8    3.488141323732407
+    Node 9    1.4201463952287614
+    Node 10    3.959561560180802
+    Node 11    1.174995889510618
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    2.0446104945159047
+    Attrib sepal_length    1.0002750425277718
+    Attrib sepal_width    0.31494658137128473
+    Attrib petal_length    -4.170864427428895
+    Attrib petal_width    -3.227972421225591
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    0.09111422091483001
+    Attrib sepal_length    0.2721253773696143
+    Attrib sepal_width    1.7702503233223974
+    Attrib petal_length    -2.4401305476275215
+    Attrib petal_width    -1.911344182471274
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    0.027136294448780213
+    Attrib sepal_length    0.20140529736055005
+    Attrib sepal_width    1.8462411664558076
+    Attrib petal_length    -2.343205089561985
+    Attrib petal_width    -1.9371827306912577
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    0.5144621936626855
+    Attrib sepal_length    0.33089727757841497
+    Attrib sepal_width    1.4895021377171342
+    Attrib petal_length    -2.5763808829862866
+    Attrib petal_width    -1.9742581672897728
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    1.9691719439074913
+    Node 3    -3.5937782066412916
+    Node 4    -2.7804651730355876
+    Node 5    -2.672274238771748
+    Node 6    -2.883174886302115
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    1.796834649520515
+    Node 3    -3.3779215258902817
+    Node 4    -2.5541604629144925
+    Node 5    -2.5015708058521673
+    Node 6    -2.667094784253961
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    4.201493722944386
+    Node 3    -0.412042880440096
+    Node 4    -2.2648426966150996
+    Node 5    -2.2357363150081935
+    Node 6    -2.006675245820621
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    1.984161950587622
+    Node 3    -3.6293170721973897
+    Node 4    -2.7544588349786485
+    Node 5    -2.6785659082775872
+    Node 6    -2.901631039342807
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    4.697251958167888
+    Node 3    -0.48458133655306956
+    Node 4    -2.4780926085206585
+    Node 5    -2.4577053976638825
+    Node 6    -2.1442190605034543
+Class setosa
+    Input
+    Node 0
+Class versicolor
+    Input
+    Node 1
+Class virginica
+    Input
+    Node 2

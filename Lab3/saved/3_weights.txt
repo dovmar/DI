@@ -1,0 +1,73 @@
+=== Classifier model ===
+
+Scheme:   MultilayerPerceptron
+Relation: iris_train_test-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    1.0323678923375543
+    Node 3    3.6565785263903634
+    Node 4    -3.6935355682252973
+    Node 5    -1.7697108552455014
+    Node 6    -1.8405470054002409
+    Node 7    -5.341581841230901
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -3.5602933053549157
+    Node 3    -0.8227013692866085
+    Node 4    4.24232387110539
+    Node 5    -6.862771193616815
+    Node 6    -7.7262966214139395
+    Node 7    7.391973166234465
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -3.690036500217078
+    Node 3    -7.645671715311136
+    Node 4    0.24386664745464648
+    Node 5    5.3314437323158845
+    Node 6    5.833262847882785
+    Node 7    0.6088275095550342
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    2.700925887910496
+    Attrib sepal_length    1.5135016442003013
+    Attrib sepal_width    0.9832350883580965
+    Attrib petal_length    -5.152784676735884
+    Attrib petal_width    -2.4764205121048697
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    1.8976709528499898
+    Attrib sepal_length    1.1501514657436716
+    Attrib sepal_width    -1.9433028110165467
+    Attrib petal_length    2.9158524838576043
+    Attrib petal_width    2.5141406854663084
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -5.584479930976206
+    Attrib sepal_length    -2.3242552199480384
+    Attrib sepal_width    -1.8142060136253892
+    Attrib petal_length    8.8375645988775
+    Attrib petal_width    4.868003706496898
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -6.083660241687326
+    Attrib sepal_length    -2.7251736891519456
+    Attrib sepal_width    -2.0886868309977404
+    Attrib petal_length    9.825110833186068
+    Attrib petal_width    5.1452056742009775
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    2.4823390849944444
+    Attrib sepal_length    1.3134194696206263
+    Attrib sepal_width    -2.547481011744711
+    Attrib petal_length    3.782498474876843
+    Attrib petal_width    3.3926708844534277
+Class setosa
+    Input
+    Node 0
+Class versicolor
+    Input
+    Node 1
+Class virginica
+    Input
+    Node 2
