@@ -24,5 +24,4 @@ Vaizdų klasifikavimas naudojant konvoliucinius neuroninius tinklus.
 
 ### Papildoma užduotis
 
-Žaidimas „Kryžiukai-nuliukai“
-
+Žaidimas „Kryžiukai-nuliukai“.
