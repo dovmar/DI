@@ -110,14 +110,15 @@
 			},
 			"connections" : {
 				"batchClassifier" : [
-					"PredictionAppender"
+					"PredictionAppender",
+					"ClassifierPerformanceEvaluator"
 				],
 				"text" : [
 					"TextViewer",
 					"TextSaver"
 				]
 			},
-			"coordinates" : "476,113"
+			"coordinates" : "469,134"
 		},
 		{
 			"class" : "weka.knowledgeflow.steps.TextViewer",
@@ -181,6 +182,35 @@
 			"connections" : {
 			},
 			"coordinates" : "728,166"
+		},
+		{
+			"class" : "weka.knowledgeflow.steps.ClassifierPerformanceEvaluator",
+			"properties" : {
+				"collectPredictionsForVisAndAUC" : true,
+				"costMatrixString" : "",
+				"errorPlotPointSizeProportionalToMargin" : false,
+				"evaluateWithRespectToCosts" : false,
+				"evaluationMetricsToOutput" : "Correct,Incorrect,Kappa,Total cost,Average cost,KB relative,KB information,Correlation,Complexity 0,Complexity scheme,Complexity improvement,MAE,RMSE,RAE,RRSE,TP rate,FP rate,Precision,Recall,F-measure,MCC,ROC area,PRC area",
+				"name" : "ClassifierPerformanceEvaluator",
+				"outputConfusionMatrix" : true,
+				"outputEntropyMetrics" : false,
+				"outputPerClassStats" : true
+			},
+			"connections" : {
+				"text" : [
+					"TextViewer3"
+				]
+			},
+			"coordinates" : "504,-22"
+		},
+		{
+			"class" : "weka.knowledgeflow.steps.TextViewer",
+			"properties" : {
+				"name" : "TextViewer3"
+			},
+			"connections" : {
+			},
+			"coordinates" : "380,-14"
 		}
 	]
 }
